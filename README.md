@@ -11,7 +11,7 @@ Recognition".
 
 ## Training
 
-- Step 1: download basic emotions dataset of [CK+](https://sites.pitt.edu/~emotion/ck-spread.htm), and make sure it have the structure like following:
+- Step 1: download basic emotions dataset of CK+, and make sure it have the structure like following:
 
 ```
 ./CK+/
@@ -34,15 +34,6 @@ Recognition".
 - Step 2: change ***data_path*** in *train.py* to your path 
 
 - Step 3: run ```python train.py ```
-
-## Dataset
-
-```
-CK+:http://www.pitt.edu/~emotion/ck-spread.htm
-JAFFE:http://www.kasrl.org/jaffe.html
-SFEW 2.0:https://cs.anu.edu.au/few/emotiw2015.html
-
-```
 
 ## Note
 Our experiment did not use the pre-trained model.
